@@ -1,0 +1,31 @@
+{
+  "dependencies": [
+    {
+      "version_requirement": ">= 3.0.0",
+      "name": "puppetlabs/stdlib"
+    },
+    {
+      "version_requirement": ">= 0.9.0",
+      "name": "cprice404/inifile"
+    }
+  ],
+  "license": "",
+  "version": "0.1.0",
+  "summary": "Zabbix Agent Puppet Module",
+  "description": "This module manages Zabbix Agent on Windows and Debian/Ubuntu.",
+  "source": "git://github.com/softek/puppet-zabbixagent.git",
+  "project_page": "http://github.com/softek/puppet-zabbixagent",
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "f3ef44d7819c6380dcae57da03e2640b",
+    "manifests/init.pp": "ce07600064349b3e0d86a0a172e1104c",
+    "README.md": "58f8f9e6f67de60b4e42a2e460e6fe66",
+    "files/win64/zabbix_get.exe": "6521e71a030e8476ff1c1f6d246e71ea",
+    "files/win64/zabbix_agentd.exe": "be9bf12452f3f5ccd7008eaec82eb758",
+    "files/win64/zabbix_sender.exe": "65f579a62f34d96053a040fc7a6133ba"
+  },
+  "name": "softek-zabbixagent",
+  "author": "Scott Smerchek"
+}
